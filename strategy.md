@@ -18,3 +18,9 @@
   - 叫声、飞行：不同鸭子各有差异
     - 飞行：会飞、不会飞、火箭动力
     - 叫声：嘎嘎叫、吱吱叫、不出声
+
+![](./img/strategy_pattern.svg)
+
+[Java实现](./code/Java/strategy)
+
+
