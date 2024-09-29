@@ -21,6 +21,7 @@
 
 ![](./img/strategy_pattern.svg)
 
-[Java实现](./code/Java/strategy)
-
+- [Java实现](./code/Java/strategy)
+- [C++实现](./code/C++/strategy)
+- [Python实现](./code/Python/strategy)
 
