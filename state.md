@@ -28,3 +28,7 @@
 - 特殊要求：10%的中奖几率，中奖可额外获得一个糖果
 ![](img/state_pattern_1.svg)
 ![](img/state_pattern_2.svg)
+
+- [Java实现](code/Java/state)
+- [C++实现](code/C++/state)
+- [Python实现](code/Python/state)
