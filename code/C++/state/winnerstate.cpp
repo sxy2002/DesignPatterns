@@ -21,8 +21,8 @@ void WinnerState::dispense()
 {
 	this->gumballMachine->releaseBall();
 	if (this->gumballMachine->getCount() > 0) {
-		std::cout << "You are a winner! You got two gumballs for your quarter" << std::endl;
 		this->gumballMachine->releaseBall();
+		std::cout << "You are a winner! You got two gumballs for your quarter" << std::endl;
 		if (this->gumballMachine->getCount() > 0) {
 			this->gumballMachine->setState(this->gumballMachine->getNoQuarterState());
 		}
