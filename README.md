@@ -6,3 +6,4 @@
 ## 行为型模式
 - [策略模式（Strategy Pattern）](./strategy.md)
 - [状态模式（State Pattern）](./state.md)
+- [观察者模式（Observer Pattern）](./observer.md)
