@@ -36,3 +36,7 @@
   - 添加数据更新的动作，拉取想要的数据
   - 添加显示格式
 ![](img/observer_pattern.svg)
+
+- [Java实现](code/Java/observer)
+- [C++实现](code/C++/observer)
+- [Python实现](code/Python/observer)
