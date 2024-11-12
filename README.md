@@ -4,6 +4,7 @@
 
 ## 结构型模式
 - [装饰者模式（Decorator Pattern）](./decorator.md)
+- [组合模式（Composite Pattern）](./composite.md)
 
 ## 行为型模式
 - [策略模式（Strategy Pattern）](./strategy.md)
