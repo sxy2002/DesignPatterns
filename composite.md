@@ -17,3 +17,7 @@
 - 咖啡厅菜单：4种咖啡
 
 ![](img/composite_pattern.svg)
+
+- [Java实现](code/Java/composite)
+- [C++实现](code/C++/composite)
+- [Python实现](code/Python/composite)
