@@ -36,18 +36,6 @@ public:
 		std::cout << ", " << getPrice() << std::endl;
 		std::cout << "  -- " << getDescription() << std::endl;
 	}
-
-	void add(MenuComponent * const m) {
-		throw std::logic_error("Unsupported Operation");
-	}
-
-	void remove(MenuComponent * const m) {
-		throw std::logic_error("Unsupported Operation");
-	}
-
-	MenuComponent* getChild(const int &i) const {
-		throw std::logic_error("Unsupported Operation");
-	}
 };
 
 #endif

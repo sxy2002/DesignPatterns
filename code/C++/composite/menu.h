@@ -55,14 +55,6 @@ public:
 		for (const MenuComponent * const item : menuComponents)
 			item->print();
 	}
-
-	double getPrice() const{
-		throw std::logic_error("Unsupported Operation");
-	}
-
-	bool isVegetarian() const{
-		throw std::logic_error("Unsupported Operation");
-	}
 };
 
 #endif
