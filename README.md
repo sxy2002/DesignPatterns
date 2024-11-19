@@ -4,6 +4,7 @@
 
 ## 创建型模式
 - [工厂模式（Factory Pattern）](./factory.md)
+- [单件模式（Singleton Pattern）](./singleton.md)
 
 ## 结构型模式
 - [装饰者模式（Decorator Pattern）](./decorator.md)
