@@ -21,3 +21,7 @@
   - 静态内部类
 
 ![](img/singleton_pattern.svg)
+
+- [Java实现](code/Java/singleton)
+- [C++实现](code/C++/singleton)
+- [Python实现](code/Python/singleton)
