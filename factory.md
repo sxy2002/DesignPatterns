@@ -24,6 +24,10 @@
 
 ![](img/factory_pattern.svg)
 
+- [Java实现](code/Java/factory)
+- [C++实现](code/C++/factory)
+- [Python实现](code/Python/factory)
+
 
 
 
