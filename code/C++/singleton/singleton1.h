@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-// Lazy �̲߳���ȫ
+// Lazy 线程不安全
 class Singleton1
 {
 private:

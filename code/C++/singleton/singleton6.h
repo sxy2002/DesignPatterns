@@ -4,7 +4,7 @@
 #include <iostream>
 #include <mutex>
 
-// Lazy 线程安全
+// Lazy 绾跨▼瀹夊叏
 class Singleton6
 {
 private:

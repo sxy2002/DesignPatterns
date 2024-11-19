@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-// Lazy ¾²Ì¬¾Ö²¿±äÁ¿£¨Ïß³Ì°²È«£©
+// Lazy é™æ€å±€éƒ¨å˜é‡ï¼ˆçº¿ç¨‹å®‰å…¨ï¼‰
 class Singleton5
 {
 private:

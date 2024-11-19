@@ -4,11 +4,11 @@
 #include <iostream>
 #include <mutex>
 
-// Lazy Ë«ÖØ¼ì²é¼ÓËø
+// Lazy åŒé‡æ£€æŸ¥åŠ é”
 class Singleton3
 {
 private:
-	static Singleton3* singleton;
+	static volatile Singleton3* singleton;
 	static std::mutex mlock;
 
 	Singleton3() {
@@ -20,15 +20,15 @@ private:
 public:
 	static Singleton3* getInstance() {
 		if (singleton == nullptr) {
-			std::lock_guard<std::mutex> lock(mlock); // ¼ÓËø
+			std::lock_guard<std::mutex> lock(mlock); // åŠ é”
 			if (singleton == nullptr)
 				singleton = new Singleton3();
 		}
-		return singleton;
+		return const_cast<Singleton3*>(singleton);
 	}
 };
 
-Singleton3* Singleton3::singleton = nullptr;
+volatile Singleton3* Singleton3::singleton = nullptr;
 std::mutex Singleton3::mlock;
 
 #endif

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <mutex>
 
-// Lazy ĞÔÄÜ²î
+// Lazy æ€§èƒ½å·®
 class Singleton2
 {
 private:
@@ -19,7 +19,7 @@ private:
 	void operator=(const Singleton2 &) = delete;
 public:
 	static Singleton2* getInstance() {
-		std::lock_guard<std::mutex> lock(mlock); // ¼ÓËø
+		std::lock_guard<std::mutex> lock(mlock); // åŠ é”
 		if (singleton == nullptr)
 			singleton = new Singleton2();
 		return singleton;
