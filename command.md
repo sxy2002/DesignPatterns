@@ -21,3 +21,5 @@
   - 宏命令
   - 默认命令
 - 全局撤销
+
+![](img/command_pattern.svg)
