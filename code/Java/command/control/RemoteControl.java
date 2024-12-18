@@ -28,11 +28,13 @@ public class RemoteControl {
     }
 
     public void onButtonWasPushed(int i) {
+        if(i >= onCommands.length || i < 0)  return;
         onCommands[i].execute();
         undoCommand = onCommands[i];
     }
 
     public void offButtonWasPushed(int i) {
+        if(i >= onCommands.length || i < 0)  return;
         offCommands[i].execute();
         undoCommand = offCommands[i];
     }
