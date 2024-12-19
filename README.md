@@ -10,6 +10,7 @@
 - [装饰者模式（Decorator Pattern）](./decorator.md)
 - [组合模式（Composite Pattern）](./composite.md)
 - [适配器模式（Adapter Pattern）](./adapter.md)
+- [外观模式（Facade Pattern）](./facade.md)
 
 ## 行为型模式
 - [策略模式（Strategy Pattern）](./strategy.md)
