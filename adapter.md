@@ -26,3 +26,8 @@
 - 火鸡：gobble、short fly
 - 鸭子适配器包装火鸡、火鸡适配器包装鸭子
 
+![](img/adapter_pattern.svg)
+
+- [Java实现](code/Java/adapter)
+- [C++实现](code/C++/adapter)
+- [Python实现](code/Python/adapter)
