@@ -34,3 +34,9 @@
   - 打开流媒体播放器、放电影
 - 结束电影
   - 关闭爆米花机、灯、屏幕、投影机、音响、停止流媒体播放器、关闭流媒体播放器
+
+![](img/facade_pattern.svg)
+
+- [Java实现](code/Java/facade)
+- [C++实现](code/C++/facade)
+- [Python实现](code/Python/facade)
