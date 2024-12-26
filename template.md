@@ -24,4 +24,8 @@
 - 类型：咖啡、茶
 - 行为：将水煮沸、[用水冲泡]、导入杯子、[(是否需要)加调料]
 
+![](img/template_pattern.svg)
 
+- [Java实现](code/Java/template)
+- [C++实现](code/C++/template)
+- [Python实现](code/Python/template)
