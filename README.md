@@ -17,3 +17,4 @@
 - [状态模式（State Pattern）](./state.md)
 - [观察者模式（Observer Pattern）](./observer.md)
 - [命令模式（Command Pattern）](./command.md)
+- [模板方法模式（Template Method Pattern）](./template.md)
