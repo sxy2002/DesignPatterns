@@ -19,3 +19,6 @@
 - 餐厅菜单：Array
 - 咖啡厅菜单：HashMap
 
+![](img/iterator_pattern.svg)
+
+- [Java实现](code/Java/iterator)
